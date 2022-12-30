@@ -48,6 +48,7 @@ ul{
     align-self: center;
     margin-top: 48px;
     gap: 3em;
+    flex-wrap: wrap;
 }
 .hero-text{
     flex: 1;
@@ -74,6 +75,7 @@ ul{
     background-color: #505050;
     color:#E5E7EB;
     width: 400px;
+    height: 230px;
     
 }
 .hero-signup{
@@ -98,6 +100,7 @@ ul{
     font-weight: bolder;
     color: #1F2937;
     margin-bottom: 20px;
+    
 }
 .carrousel{
     display:flex;
@@ -196,4 +199,7 @@ ul{
     text-align: center;
     padding: 30px;
     font-size: 18px;
+}
+.logo, a, .info-title {
+    white-space: nowrap;
 }
