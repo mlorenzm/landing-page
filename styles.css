@@ -1,0 +1,139 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
+
+body{
+    font-family: 'Roboto';
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+.section-one{
+    background-color: #1F2937;
+    padding: 10px 64px 64px;
+}
+.header{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+.logo{
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.header-right{
+    display: flex;
+    gap: 10px;
+    
+}
+.header-right a{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.hero{
+    display:flex;
+    justify-content: space-between;
+    align-self: center;
+    margin-top: 48px;
+    gap: 3em;
+}
+.hero-text{
+    flex: 1;
+    display:flex;
+    flex-direction: column;
+    gap: 8px;
+    
+}
+.hero-title{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.hero-body{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.img-placeholder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #505050;
+    color:#E5E7EB;
+    flex: 1;
+    
+}
+.hero-signup{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: none;
+    padding: 8px 28px;
+    align-self: flex-start;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 6px;
+}
+.section-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 64px;
+}
+.info-title{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 20px;
+}
+.carrousel{
+    display:flex;
+    justify-content: space-around;
+    margin: 0;
+    gap: 30px;
+}
+.box{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    width:150px;
+}
+.item{
+    width: 150px;
+    height: 150px;
+    outline: solid;
+    outline-color: #3882F6;
+    border-radius: 12px;
+}
+.bottom-text{
+    text-align: center;
+    overflow: auto;
+    color: #505050;
+}
+.section-three{
+   background-color: #E5E7EB;
+   padding: 80px; 
+   display: flex;
+   flex-direction: column;
+}
+
+.quote{
+    font-style: italic;
+    font-size: 38px;
+    font-weight: lighter;
+    color: #1F2937;
+}
+.author{
+    font-weight: bold;
+    align-self: flex-end;
+    color: #1F2937;
+}
