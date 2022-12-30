@@ -138,3 +138,48 @@ ul{
     color: #1F2937;
     font-size: 18px;
 }
+.section-four{
+    display:flex;
+    justify-content: center;
+    padding: 60px;
+    
+}
+.call-wrap{
+    width:700px;
+}
+.call{
+    background-color: #3882F6;
+    border-radius: 6px;
+    padding:36px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+.call-left{
+    display:flex;
+    flex-direction: column;
+}
+.call-title{
+    color: #E5E7EB;
+    font-weight: bold;
+    font-size: 20px;
+}
+.call-text{
+    color:#E5E7EB;
+    font-size: 16px;
+}
+.call-signup{
+    background-color: #3882F6;
+    width: 90px;
+    height: 30px;    
+    color: #E5E7EB;
+    border: none;
+    outline: solid 3px;
+    outline-color: #E5E7EB;
+    align-self: flex-start;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 6px;
+    align-self: center;
+}
